@@ -5,6 +5,11 @@ import org.springframework.cloud.context.config.annotation.RefreshScope;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+/**
+ * @author liuxiaokun
+ * @date 2019-04-25
+ * @version 1.0.0
+ */
 @RestController
 @RefreshScope
 public class ConfigController {
